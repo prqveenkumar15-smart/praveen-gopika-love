@@ -113,7 +113,7 @@ footer {
   </section>
 
   <footer>
-    Made with ❤️ by Praveen, just for Gopika
+    Made with ❤️ by Praveen,  for my pondatii Gopika
   </footer>
 </main>
 
