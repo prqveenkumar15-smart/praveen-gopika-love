@@ -1,7 +1,6 @@
 # praveen-gopika-love
 A special love website for Gopika ❤️
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
