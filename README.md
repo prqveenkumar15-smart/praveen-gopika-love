@@ -90,7 +90,7 @@ footer {
       Un smile en happiness, un love en strength.
       Ovvoru naalum un kooda beautiful memories
       create pannanum nu aasai
-      love u dii my dear pondatii.
+      love u dii my dear pondatii😘.
     </p>
     <p>🌹 Forever begins with you 🌹</p>
     <button onclick="showLove()">
