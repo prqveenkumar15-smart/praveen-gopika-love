@@ -2,51 +2,272 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Praveen ❤️ Gopika</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Praveen ❤️ Gopika Forever</title>
+
 <style>
-*{box-sizing:border-box}
-body{margin:0;min-height:100vh;padding:45px 18px;text-align:center;font-family:Georgia,serif;color:white;background:linear-gradient(145deg,#240013,#8b174b,#ed789f);overflow-x:hidden}
-main{max-width:650px;margin:auto}
-.heart{font-size:65px;animation:beat 1s infinite}
-h1{font-size:clamp(32px,8vw,52px)}
-p{font-size:18px;line-height:1.8}
-.card{margin-top:28px;padding:25px;border:1px solid #ffffff66;border-radius:24px;background:#ffffff18;box-shadow:0 10px 35px #21000c55}
-button{border:0;border-radius:30px;padding:15px 25px;margin-top:18px;background:#fff0f5;color:#9d174d;font-size:16px;font-weight:bold}
-#message{display:none;white-space:pre-line;margin-top:22px}
-.floating{position:fixed;bottom:-30px;animation:floatUp 7s linear forwards;pointer-events:none}
-@keyframes beat{50%{transform:scale(1.15)}}
-@keyframes floatUp{to{transform:translateY(-110vh) rotate(25deg);opacity:0}}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(135deg, #31001d, #a00050, #ff4d88);
+}
+
+header {
+  padding: 35px 15px 20px;
+}
+
+h1 {
+  font-size: 32px;
+  text-shadow: 0 0 15px pink;
+}
+
+h2 {
+  color: #ffd6e5;
+}
+
+section {
+  margin: 20px auto;
+  padding: 22px 15px;
+  width: 92%;
+  max-width: 800px;
+  border: 1px solid #ffffff55;
+  border-radius: 20px;
+  background: #ffffff14;
+  box-shadow: 0 5px 25px #30001855;
+}
+
+button {
+  background: #ffb6d0;
+  color: #68002f;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 2px solid #ffc1d8;
+}
+
+.letter {
+  font-size: 17px;
+  line-height: 1.9;
+  white-space: pre-line;
+}
+
+.counter {
+  font-size: 34px;
+  font-weight: bold;
+  color: #ffe1ed;
+  margin: 20px 0;
+}
+
+input {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  max-width: 100%;
+}
+
+footer {
+  padding: 25px 10px;
+}
+
+.heart {
+  position: fixed;
+  bottom: -30px;
+  animation: floatUp 7s linear forwards;
+  pointer-events: none;
+  z-index: 5;
+}
+
+@keyframes floatUp {
+  to {
+    transform: translateY(-110vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 380px) {
+  h1 { font-size: 26px; }
+  .gallery img { height: 155px; }
+}
 </style>
 </head>
+
 <body>
-<main>
-<div class="heart">❤️</div>
-<h1>Praveen &amp; Gopika</h1>
-<p>Two hearts, one beautiful story. 💕</p>
-<section class="card">
-<h2>En Uyir Gopika ❤️</h2>
-<p>Nee en life-la vandha azhagana gift. Un smile en happiness, un love en strength. Ovvoru naalum un kooda beautiful memories create pannanum nu aasai.</p>
-<p>🌹 Forever begins with you 🌹</p>
-<button onclick="showLove()">Open My Love Letter 💌</button>
-<div id="message">Ennavale Gopika ❤️
 
-Enakku kidaicha azhagana varam nee.
-Un kooda sirikkanum, un kooda vazhanum,
-un kaiya pidichu ovvoru naalum
-unnaiye love pannanum.
+<header>
+  <h1>❤️ Praveen & Gopika ❤️</h1>
+  <p>Two Hearts, One Love, Forever Together 💕</p>
+  <p>என் உயிரே, என் என்னவளே! 🌹</p>
+</header>
 
-I love you so much! 💖
-
-Forever yours,
-Praveen ❤️</div>
+<section>
+  <h2>💌 A Little Message for You</h2>
+  <p>
+    Every moment with you is special.
+    You are my happiness, my smile,
+    and my favourite person in this world. ❤️
+  </p>
+  <p>Praveen ❤️ Gopika — Forever & Always</p>
 </section>
-<footer><p>Made with ❤️ by Praveen, just for Gopika</p></footer>
-</main>
+
+<section>
+  <h2>📸 Our Beautiful Memories</h2>
+  <p>Every photo tells our love story 💖</p>
+
+  <div class="gallery">
+    <img src="photo1.jpg" alt="Our memory 1">
+    <img src="photo2.jpg" alt="Our memory 2">
+    <img src="photo3.jpg" alt="Our memory 3">
+    <img src="photo4.jpg" alt="Our memory 4">
+  </div>
+  <p>Add your favourite memories here 🥰</p>
+</section>
+
+<section>
+  <h2>🎵 Our Love Song</h2>
+  <p>Listen and think of us, Gopika ❤️</p>
+
+  <audio id="loveSong" controls loop preload="metadata">
+    <source src="lovesong.mp3" type="audio/mpeg">
+    Your browser does not support audio.
+  </audio>
+
+  <p><small>Tap Play to listen to your song 🎶</small></p>
+</section>
+
+<section>
+  <h2>💌 என் என்னவளுக்கு...</h2>
+
+  <div class="letter">
+என் அன்பான கோபிகா ❤️
+
+என் வாழ்க்கையில் வந்த அழகான
+தேவதை நீதான்.
+
+உன் சிரிப்பில் என் சந்தோஷம்,
+உன் பேச்சில் என் நிம்மதி,
+உன் அன்பில் என் உலகம்.
+
+எத்தனை நாட்கள் கடந்தாலும்,
+என் மனதில் உனக்கான இடம்
+என்றும் மாறாது.
+
+உன் கையைப் பிடித்து,
+வாழ்க்கை முழுவதும் உன்னோடு
+பயணிக்க வேண்டும் என்பதுதான்
+என் ஆசை.
+
+என்றும் உன் பிரவீன் ❤️
+
+I LOVE YOU GOPIKA! 💋
+  </div>
+</section>
+
+<section>
+  <h2>🗓️ Our Love Journey</h2>
+  <p>Our love story started on...</p>
+
+  <label for="loveDate">Choose our special date:</label>
+  <br><br>
+  <input type="date" id="loveDate" value="2026-01-01">
+  <br><br>
+
+  <button onclick="updateCounter()">
+    💖 Calculate Our Love Days
+  </button>
+
+  <div class="counter" id="days">0 Days ❤️</div>
+  <p id="counterMessage">Every day with you is special!</p>
+</section>
+
+<footer>
+  <h2>💞 Forever Yours 💞</h2>
+  <p>Made with endless love by Praveen for Gopika ❤️</p>
+  <p>நீயும் நானும்... என்றும் ஒன்றாக! 🌹</p>
+</footer>
+
 <script>
-function showLove(){const m=document.getElementById('message');m.style.display='block';m.scrollIntoView({behavior:'smooth',block:'center'})}
-function createHeart(){const h=document.createElement('span');h.className='floating';h.textContent=['❤️','💕','💗','💖'][Math.floor(Math.random()*4)];h.style.left=Math.random()*100+'vw';h.style.fontSize=(16+Math.random()*22)+'px';h.style.animationDuration=(5+Math.random()*4)+'s';document.body.appendChild(h);setTimeout(()=>h.remove(),9000)}
-setInterval(createHeart,600);
+function updateCounter() {
+  const input = document.getElementById("loveDate");
+  const output = document.getElementById("days");
+  const message = document.getElementById("counterMessage");
+
+  if (!input.value) {
+    output.textContent = "Choose our special date ❤️";
+    return;
+  }
+
+  const parts = input.value.split("-").map(Number);
+  const start = Date.UTC(parts[0], parts[1] - 1, parts[2]);
+
+  const now = new Date();
+  const today = Date.UTC(
+    now.getFullYear(),
+    now.getMonth(),
+    now.getDate()
+  );
+
+  if (start > today) {
+    output.textContent = "Our special day is coming! 💕";
+    message.textContent = "Choose a date that has already passed.";
+    return;
+  }
+
+  const days = Math.floor((today - start) / 86400000);
+
+  output.textContent = days + " Days ❤️";
+  message.textContent =
+    "We have shared " + days +
+    " beautiful days together! More memories to come 💖";
+}
+
+document.getElementById("loveDate").addEventListener(
+  "change",
+  updateCounter
+);
+
+updateCounter();
+
+// Floating hearts
+setInterval(function() {
+  const heart = document.createElement("span");
+  heart.className = "heart";
+  heart.textContent = ["❤️", "💕", "💖", "💗"][
+    Math.floor(Math.random() * 4)
+  ];
+
+  heart.style.left = Math.random() * 100 + "vw";
+  heart.style.fontSize = (16 + Math.random() * 20) + "px";
+
+  document.body.appendChild(heart);
+
+  setTimeout(function() {
+    heart.remove();
+  }, 7000);
+}, 800);
 </script>
+
 </body>
 </html>
