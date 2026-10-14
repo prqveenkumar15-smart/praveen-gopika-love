@@ -89,7 +89,8 @@ footer {
       Nee en life-la vandha azhagana gift.
       Un smile en happiness, un love en strength.
       Ovvoru naalum un kooda beautiful memories
-      create pannanum nu aasai.
+      create pannanum nu aasai
+      love u dii my dear pondatii.
     </p>
     <p>🌹 Forever begins with you 🌹</p>
     <button onclick="showLove()">
@@ -100,10 +101,11 @@ footer {
 
       Enakku kidaicha azhagana varam nee.
       Un kooda sirikkanum, un kooda vazhanum,
-      un kaiya pidichu ovvoru naalum
-      unnaiye love pannanum.
+      epvayum life full ha ona irrupom
+      enakaga Neeyum unakaga nanum
+      
 
-      I love you so much! 💖
+      I love you dii gundathii! 💖
 
       Forever yours,
       Praveen ❤️
